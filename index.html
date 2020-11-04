@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <title>Frontend Mentor | Huddle landing page with single introductory section</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    :root {
+      --violet: hsl(257, 40%, 49%);
+    }
+
+    * {
+      font-family: 'Open Sans', sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      line-height: 1.6;
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    h1 {
+      font-family: 'Poppins', sans-serif !important;
+      font-weight: 700;
+    }
+
+    @media(max-width: 375px) {
+      body {
+        background-image: url(images/bg-mobile.svg);
+        background-color: var(--violet);
+      }
+      .row {
+        text-align: center;
+      }
+      img {
+        width: 50%;
+      }
+      h1 {
+        font-size: 30px;
+      }
+      .align-icons {
+        text-align: center;
+      }
+    }
+
+    @media(min-width: 500px) {
+      body {
+        background-image: url(images/bg-desktop.svg);
+        background-color: var(--violet);
+      }
+      .pr-6 {
+        padding-right: 6rem;
+      }
+      .align-icons {
+        text-align: right;
+      }
+    }
+    .mockup {
+      width: 100%;
+    }
+    .btn {
+      background-color: white;
+      color: var(--violet);
+      border-radius: 50px;
+      padding: 10px 50px;
+    }
+    .fab {
+      border: 1px solid white;
+      border-radius: 50%;
+      width: 2rem;
+      height: 2rem;
+      line-height: 2rem;
+      text-align: center;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <img src="images/logo.svg" class="mt-5">
+    <div class="row mt-5">
+      <div class="col-sm-6">
+        <img src="images/illustration-mockups.svg" class="mockup">
+      </div>
+      <div class="col-sm-6 text-white mt-5 pr-6">
+        <h1>Build The Community Your Fans Will Love</h1>
+<p>
+  Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
+  Create connections with your users as you engage in genuine discussion.
+</p>
+        <button class="btn shadow">
+          Register
+        </button>
+
+      </div>
+    </div>
+    <div class="align-icons mt-3">
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i>
+    </div>
+  </div>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Yossi Ben Zaken</a>.
+    </p>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
